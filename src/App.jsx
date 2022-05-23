@@ -12,9 +12,8 @@ const App = () => {
       <Header />
       <Nav />
       <Events />
-      <Contact />
-     
       <About />
+      <Contact />
     </>
   );
 }

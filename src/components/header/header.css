@@ -5,13 +5,9 @@ header {
 }
 .header__container {
   padding-top: 2rem;
-  text-align: center;
   height: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2%;
-  position: relative;
-  /* background: burlywood; */
+  display: flex;
+  justify-content: space-between;
   place-items: center;
 }
 .cta {
@@ -37,22 +33,26 @@ margin-bottom: 12px;
   width: 100%;
   aspect-ratio: 1/1;
 }
-.header-main-text {
+.header-main-texts {
   /* background: red; */
 
   display: flex;
   flex-direction: row;
   text-align: start;
 }
-.header-main-text h1 {
+.header-main-text  {
   font-size: 50px;
   font-weight: 800;
   line-height: 70px;
   margin-top: 110px;
 }
-.header-main-text-h1 {
-  color: var(--primary-color);
-  margin-top: 4.5rem;
+
+.header-main-text-span{
+
+
+  
+  color: var(--primary-color)
+
 }
 .hero__content p {
   text-align: start;

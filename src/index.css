@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Khand:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -51,7 +51,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 500;
+  font-weight: 600;
 }
 h1 {
   font-size: 2.5rem;
@@ -65,7 +65,8 @@ section > h1 {
   text-align: center;
   color: var(--primary-color);
   font-weight: 800;
-  
+  margin-bottom: 30px;
+  margin-top: 50px;
 }
 /* section > h2 {
   color: var(--color-primary);
@@ -82,6 +83,7 @@ a{
 
 a:hover{
   color: var(--color-white);
+
 }
 
 .btn{
@@ -94,6 +96,7 @@ a:hover{
   background:  var(--primary-color);
   transition: var(--transition);
   height: max-content;
+  margin: 0;
   
 }
 .btn:hover{
@@ -110,6 +113,7 @@ a:hover{
    padding: 0.6rem 2rem;
    border-radius: 3rem;
    text-align: center;
+   
    height: max-content;
 }
 .btn-primary :hover{
